@@ -1,13 +1,12 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-@import "@fortawesome/fontawesome-free/css/all.min.css";
-@import '@ctrl/ngx-emoji-mart/picker';
-
+@use "bootstrap/dist/css/bootstrap.min.css" as *;
+@use "@fortawesome/fontawesome-free/css/all.min.css" as *;
+@use "@ctrl/ngx-emoji-mart/picker" as *;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*font-family: 'Poppins', sans-serif;*/
+  // font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -27,7 +26,8 @@ body {
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
-  >img {
+
+  img {
     width: 100%;
   }
 }
